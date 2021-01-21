@@ -1,0 +1,19 @@
+---
+title: "NBA"
+author: "Mishan"
+date: "1/21/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+data = read.csv('https://raw.githubusercontent.com/Misdev966/Mishan/main/nba.csv')
+
+```
+
+## baketball
+Its my first time
+
+```{r}
+head(data)
+```
